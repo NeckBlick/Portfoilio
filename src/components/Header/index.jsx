@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
+  
   return (
     <header className="bg-white">
       <nav
@@ -38,12 +38,18 @@ export default function Header() {
           >
             Página inicial
           </Link>
-          <Link
-            to="/projetos"
+          <a
+            href="/#sobre"
             className="text-lg font-semibold leading-6 px-3 py-2 text-gray-900 hover:scale-110"
           >
             Sobre mim
-          </Link>
+          </a>
+          <a
+            href="/#skills"
+            className="text-lg font-semibold leading-6 px-3 py-2 text-gray-900 hover:scale-110"
+          >
+            Skills
+          </a>
           <Link
             to="/projetos"
             className="text-lg font-semibold leading-6 bg-purple-700 px-3 py-2 rounded-md text-gray-900 hover:scale-110"
@@ -78,19 +84,25 @@ export default function Header() {
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
                 <Link
-                  to="#"
+                  to="/"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Pagina inicial
                 </Link>
                 <Link
-                  to="#"
+                  to="/#sobre"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Sobre mim
                 </Link>
+                <a
+                  href="/#skills"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                >
+                  Skills
+                </a>
                 <Link
-                  to="#"
+                  to="/projetos"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold bg-purple-700 leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Projetos
