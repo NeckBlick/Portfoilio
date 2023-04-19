@@ -45,7 +45,7 @@ export default function Header() {
             Tecnologias
           </a>
           <a
-            href=""
+            href="/#principais"
             className="text-lg font-semibold leading-6 px-3 py-2 text-gray-900 hover:scale-110 whitespace-nowrap"
           >
             Principais projetos

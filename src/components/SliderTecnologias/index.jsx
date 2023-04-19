@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './index.css'
 import CardTecnologias from '../CardTecnologias';
-import {  AiFillGithub } from "react-icons/ai";
+import {  AiFillGithub,AiFillHtml5 } from "react-icons/ai";
 import {
   SiJavascript,
   SiReact,
@@ -16,6 +16,7 @@ import {
     BsFillDatabaseFill,
   } from "react-icons/bs";
 import { FiFigma } from "react-icons/fi";
+import {FaCss3Alt} from 'react-icons/fa'
 
 
 export default function SliderTecnologias() {
@@ -53,7 +54,22 @@ export default function SliderTecnologias() {
         ],
       };
   return (
-    <Slider {...settings} className=" flex justify-center items-center ml-2">
+    <Slider {...settings} className=" flex justify-center items-center ml-2 cursor-grab active:cursor-grabbing">
+        <CardTecnologias
+                title="HTML"
+                icon={<AiFillHtml5 size={80} />}
+                description="HTML é a linguagem de marcação padrão utilizada para criar páginas na internet. 
+                Com o HTML, os desenvolvedores podem definir a estrutura e o conteúdo de uma página web, usando uma 
+                série de elementos e tags que permitem inserir texto, imagens, vídeos, links, formulários e outros elementos 
+                interativos. "
+              />
+        <CardTecnologias
+                title="CSS" 
+                icon={<FaCss3Alt size={80} />}
+                description="CSS é uma linguagem de estilo utilizada para definir a aparência visual de uma página web criada 
+                com HTML. Com o CSS, os desenvolvedores podem definir o layout, as cores, as fontes, os tamanhos e outras 
+                propriedades visuais de elementos HTML, permitindo criar páginas web mais estilizadas e atraentes. "
+              />
         <CardTecnologias
                 title="JavaScript"
                 icon={<SiJavascript size={80} />}

@@ -1,33 +1,28 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "../../components/Header";
 import Typed from "react-typed";
-import Slider from "react-slick";
 import {
   BsLinkedin,
   BsGithub,
   BsFillArrowUpCircleFill,
-  BsFillDatabaseFill,
   BsWhatsapp,
 } from "react-icons/bs";
-import { FiFigma } from "react-icons/fi";
 import { MdEmail } from "react-icons/md";
-import { AiFillHtml5, AiFillGithub } from "react-icons/ai";
-import {
-  SiCss3,
-  SiJavascript,
-  SiReact,
-  SiPython,
-  SiMicrosoft,
-} from "react-icons/si";
-import { GrNode } from "react-icons/gr";
-import { BiGitBranch } from "react-icons/bi";
 import Image from "../../assets/Gaming-rafiki.png";
 import CardProjetos from "../../components/CardProjetos";
 import SliderTecnologias from "../../components/SliderTecnologias";
+import HydeDesk from "../../assets/hydeDesk.jpg";
+import Financas from "../../assets/financas.jpg";
+import Calculadora from "../../assets/carnes.png";
+import Footer from "../../components/Footer";
+import { Link } from "react-router-dom";
 
 export default function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
-    <div>
+    <>
       <Header />
       <BsFillArrowUpCircleFill
         size={50}
@@ -86,30 +81,48 @@ export default function Home() {
           </div>
         </section>{" "}
         {/* Capa da pagina */}
-        <section className="w-full  sm:mt-8" id="skills">
-          <div className="flex flex-col justify-center mx-auto w-40">
+        <section className="w-full mt-14 flex flex-col " id="skills">
+          <div className="flex flex-col justify-center  mx-auto">
             <h1 className="text-4xl font-semibold ">Tecnologias</h1>
             <div className="w-[8rem] h-1 bg-blue-700 -mt-0.5"></div>
+            <div className="w-[6rem] h-1 bg-blue-500 mt-0.5"></div>
           </div>
-          <div className="mt-6 p-4 mx-auto">
-            <SliderTecnologias/>
+          <div className="mt-6 p-4">
+            <SliderTecnologias />
           </div>
         </section>{" "}
         {/* Tecnologias */}
-        <section className="w-full lg:h-[50rem] mt-14">
+        <section className="w-full mt-14 py-6 flex flex-col items-center" id="principais">
           <div className="flex flex-col justify-center mx-auto w-96">
             <h1 className="text-4xl font-semibold ">Principais Projetos</h1>
             <div className="w-[6rem] h-1 bg-blue-700 -mt-0.5"></div>
+            <div className="w-[4rem] h-1 bg-blue-500 mt-0.5"></div>
           </div>
-          <div className="mt-6 p-4">
-            <CardProjetos />
-          </div> {/* Principais projetos */}
+          <div className="mt-6 p-4 mx-auto flex lg:flex-row sm:flex-col md:flex-wrap items-center justify-center gap-4 ">
+            <CardProjetos
+              title="HydeDesk"
+              description="O HydeDesk é um sistema de help desk que facilita o funcionário chamar um técnico, caso haja algum problema."
+              Image={HydeDesk}
+            />
+            <CardProjetos
+              title="Controle de Finanças"
+              description="O Controle de Finanças é um aplicativo que ajuda o usuário a controlar suas finanças pessoais, podendo adicionar, vizualizar o total de entradas e saídas."
+              Image={Financas}
+              link="https://aplicativo-de-financas.vercel.app/"
+            />
+            <CardProjetos
+              title="Calculadora de churrasco"
+              description="O Carneats calcula a quantidade de carne e bebida necessária para um churrasco a partir da quantidade de pessoas que serão convidadas pelo usuario."
+              Image={Calculadora}
+              link="https://github.com/NeckBlick/Calculadora-de-churrasco"
+            />
+          </div>{" "}
+          <Link to="/projetos" className="text-blue-800 border-blue-900 border-2 hover:bg-white/70 text-center px-6 py-4 font-bold text-xl rounded-lg">Ver mais</Link>
+          {/* Principais projetos */}
         </section>
       </main>
-      <footer>
-
-      </footer>
-    </div>
+     <Footer/>
+    </>
   );
 }
 
