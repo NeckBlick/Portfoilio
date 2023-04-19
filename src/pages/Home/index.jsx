@@ -12,7 +12,7 @@ import Image from "../../assets/Gaming-rafiki.png";
 import CardProjetos from "../../components/CardProjetos";
 import SliderTecnologias from "../../components/SliderTecnologias";
 import HydeDesk from "../../assets/hydeDesk.png";
-import Financas from "../../assets/financas.png";
+import Financas from "../../assets/Financas.png";
 import Calculadora from "../../assets/carnes.png";
 import Footer from "../../components/Footer";
 import { Link } from "react-router-dom";
