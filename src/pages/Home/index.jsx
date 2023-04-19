@@ -98,7 +98,7 @@ export default function Home() {
             <div className="w-[6rem] h-1 bg-blue-700 -mt-0.5"></div>
             <div className="w-[4rem] h-1 bg-blue-500 mt-0.5"></div>
           </div>
-          <div className="mt-6 p-4 mx-auto flex lg:flex-row sm:flex-col md:flex-wrap items-center justify-center gap-4 ">
+          <div className="mt-6 p-4 mx-auto flex flex-wrap lg:flex-row sm:flex-col items-center justify-center gap-4 ">
             <CardProjetos
               title="HydeDesk"
               description="O HydeDesk é um sistema de help desk que facilita o funcionário chamar um técnico, caso haja algum problema."
@@ -117,8 +117,8 @@ export default function Home() {
               link="https://github.com/NeckBlick/Calculadora-de-churrasco"
             />
           </div>{" "}
-          <Link to="/projetos" className="text-blue-800 border-blue-900 border-2 hover:bg-white/70 text-center px-6 py-4 font-bold text-xl rounded-lg">Ver mais</Link>
           {/* Principais projetos */}
+          <Link to="/projetos" className="text-blue-800 border-blue-900 border-2 hover:bg-white/70 text-center px-6 py-4 font-bold text-xl rounded-lg">Ver mais</Link>
         </section>
       </main>
      <Footer/>
