@@ -93,7 +93,7 @@ export default function Home() {
         </section>{" "}
         {/* Tecnologias */}
         <section className="w-full mt-14 py-6 flex flex-col items-center" id="principais">
-          <div className="flex flex-col justify-center mx-auto w-96">
+          <div className="flex flex-col justify-center mx-auto w-96 p-2">
             <h1 className="text-4xl font-semibold ">Principais Projetos</h1>
             <div className="w-[6rem] h-1 bg-blue-700 -mt-0.5"></div>
             <div className="w-[4rem] h-1 bg-blue-500 mt-0.5"></div>
