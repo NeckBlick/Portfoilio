@@ -75,7 +75,7 @@ export default function SliderTecnologias() {
                 icon={<SiJavascript size={80} />}
                 description="JavaScript é uma linguagem de programação de alto nível, dinâmica e interpretada, 
               que é amplamente utilizada para criar páginas da web interativas e dinâmicas. 
-              Ela é uma das tecnologias mais populares no desenvolvimento web atual e é suportada por todos os principais navegadores."
+              "
               />
               <CardTecnologias
                 title="ReactJs"
