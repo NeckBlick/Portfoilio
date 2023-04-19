@@ -59,8 +59,8 @@ export default function SliderTecnologias() {
                 title="HTML"
                 icon={<AiFillHtml5 size={80} />}
                 description="HTML é a linguagem de marcação padrão utilizada para criar páginas na internet. 
-                Com o HTML, os desenvolvedores podem definir a estrutura e o conteúdo de uma página web, usando uma 
-                série de elementos e tags que permitem inserir texto, imagens, vídeos, links, formulários e outros elementos 
+                Com o HTML, pode-se definir a estrutura e o conteúdo de uma página web, usando uma 
+                série de elementos, tags que permitem inserir texto, imagens, vídeos, links, formulários e outros elementos 
                 interativos."
               />
         <CardTecnologias
@@ -68,7 +68,7 @@ export default function SliderTecnologias() {
                 icon={<FaCss3Alt size={80} />}
                 description="CSS é uma linguagem de estilo utilizada para definir a aparência visual de uma página web criada 
                 com HTML. Com o CSS, os desenvolvedores podem definir o layout, as cores, as fontes, os tamanhos e outras 
-                propriedades visuais de elementos HTML, permitindo criar páginas web mais estilizadas e atraentes. "
+                propriedades visuais de elementos HTML."
               />
         <CardTecnologias
                 title="JavaScript"
