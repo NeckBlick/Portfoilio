@@ -61,7 +61,7 @@ export default function SliderTecnologias() {
                 description="HTML é a linguagem de marcação padrão utilizada para criar páginas na internet. 
                 Com o HTML, os desenvolvedores podem definir a estrutura e o conteúdo de uma página web, usando uma 
                 série de elementos e tags que permitem inserir texto, imagens, vídeos, links, formulários e outros elementos 
-                interativos. "
+                interativos."
               />
         <CardTecnologias
                 title="CSS" 
@@ -94,8 +94,7 @@ export default function SliderTecnologias() {
                 title="NodeJs"
                 icon={<GrNode size={80} />}
                 description="Node.js é uma plataforma de desenvolvimento de software de código aberto que permite que os desenvolvedores criem aplicativos 
-              de servidor usando JavaScript. Ele é construído sobre o motor V8 JavaScript do Google Chrome e permite que os desenvolvedores usem JavaScript 
-              tanto no lado do servidor quanto no lado do cliente."
+              de servidor usando JavaScript."
               />
               <CardTecnologias
                 title="Banco de dados"
@@ -114,22 +113,19 @@ export default function SliderTecnologias() {
                 title="GitHub"
                 icon={<AiFillGithub size={80} />}
                 description="GitHub é uma plataforma de hospedagem de código fonte baseada em nuvem que permite que os desenvolvedores compartilhem e colaborem 
-              em projetos de software em equipe. Ele fornece um repositório centralizado para armazenar o código fonte de um projeto e fornece recursos de 
-              gerenciamento de versão, rastreamento de problemas e gerenciamento de projetos."
+              em projetos de software em equipe."
               />
               <CardTecnologias
                 title="Figma"
                 icon={<FiFigma size={80} />}
                 description="Figma é uma ferramenta de design de interface do usuário baseada em nuvem que permite que os designers criem e compartilhem 
-              interfaces de usuário para aplicativos da web e móveis. Ele oferece recursos de design colaborativo em tempo real, o que significa que várias 
-              pessoas podem trabalhar no mesmo projeto simultaneamente, independentemente da localização."
+              interfaces de usuário para aplicativos da web e móveis. "
               />
               <CardTecnologias
                 title="Azure"
                 icon={<SiMicrosoft size={80} />}
                 description="Azure é uma plataforma de computação em nuvem criada pela Microsoft que oferece serviços de infraestrutura como serviço (IaaS), 
-              plataforma como serviço (PaaS) e software como serviço (SaaS). Ela permite que empresas e desenvolvedores criem, implantem e gerenciem 
-              aplicativos e serviços em uma rede global de data centers da Microsoft."
+              plataforma como serviço (PaaS) e software como serviço (SaaS). "
               />
     </Slider>
   )
