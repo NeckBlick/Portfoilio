@@ -12,7 +12,7 @@ export default function Header() {
   return (
     <header className="bg-white">
       <nav
-        className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
+        className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8 "
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
@@ -34,25 +34,25 @@ export default function Header() {
         <div className="hidden lg:gap-5 lg:flex lg:flex-1 lg:justify-end ">
           <Link
             to="/"
-            className="text-lg font-semibold leading-6 px-3 py-2 text-gray-900 hover:scale-110"
+            className="text-lg font-semibold leading-6 px-3 py-2 text-gray-900 hover:scale-110 whitespace-nowrap"
           >
             Página inicial
           </Link>
           <a
-            href="/#sobre"
-            className="text-lg font-semibold leading-6 px-3 py-2 text-gray-900 hover:scale-110"
-          >
-            Sobre mim
-          </a>
-          <a
             href="/#skills"
             className="text-lg font-semibold leading-6 px-3 py-2 text-gray-900 hover:scale-110"
           >
-            Skills
+            Tecnologias
+          </a>
+          <a
+            href=""
+            className="text-lg font-semibold leading-6 px-3 py-2 text-gray-900 hover:scale-110 whitespace-nowrap"
+          >
+            Principais projetos
           </a>
           <Link
             to="/projetos"
-            className="text-lg font-semibold leading-6 bg-purple-700 px-3 py-2 rounded-md text-gray-900 hover:scale-110"
+            className="text-lg font-semibold leading-6 px-3 py-2 rounded-md text-gray-900 hover:scale-110"
           >
             Projetos
           </Link>
@@ -90,20 +90,20 @@ export default function Header() {
                   Pagina inicial
                 </Link>
                 <Link
-                  to="/#sobre"
+                  to="/#skills"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Sobre mim
+                  Tecnologias
                 </Link>
                 <a
-                  href="/#skills"
+                  href=""
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Skills
+                  Principais projetos
                 </a>
                 <Link
                   to="/projetos"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold bg-purple-700 leading-7 text-gray-900 hover:bg-gray-50"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Projetos
                 </Link>
