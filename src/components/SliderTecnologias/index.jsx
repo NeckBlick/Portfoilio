@@ -84,6 +84,13 @@ export default function SliderTecnologias() {
               Ela foi criada pelo Facebook e é amplamente utilizada em projetos de desenvolvimento web de todos os tamanhos e complexidades."
               />
               <CardTecnologias
+                title="React Native"
+                icon={<SiReact size={80} />}
+                description="React Native é uma biblioteca de desenvolvimento de aplicativos móveis criada pelo Facebook que 
+                permite aos desenvolvedores criar aplicativos móveis para iOS e Android usando a linguagem JavaScript e a
+                 biblioteca React. "
+              />
+              <CardTecnologias
                 title="NodeJs"
                 icon={<GrNode size={80} />}
                 description="Node.js é uma plataforma de desenvolvimento de software de código aberto que permite que os desenvolvedores criem aplicativos 
