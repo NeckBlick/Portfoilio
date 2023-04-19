@@ -4,7 +4,7 @@ import Footer from "../../components/Footer";
 import CardProjetos from "../../components/CardProjetos";
 import HydeDesk from "../../assets/hydeDesk.png";
 import Financas from "../../assets/Financas.png";
-import Bot from "../../assets/bot.jpeg";
+import Bot from "../../assets/Bot.jpeg";
 import Calculadora from "../../assets/carnes.png";
 import { BsFillArrowUpCircleFill } from "react-icons/bs";
 
