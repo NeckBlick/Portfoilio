@@ -52,7 +52,7 @@ export default function Home() {
                 Análise e Desenvolvimento de Sistemas na Universidade Anhembi
                 Morumbi, apaixonado por tecnologia e programação. Estou em busca
                 de uma oportunidade para ingressar no mercado de trabalho como
-                Desenvolvedor(a), seja em estágio ou posição júnior.
+                Desenvolvedor, seja em estágio ou posição júnior.
               </p>
               <div className="flex flex-col gap-2">
                 <h1 className="text-xl">Entre em contato:</h1>
