@@ -103,6 +103,7 @@ export default function Home() {
               title="HydeDesk"
               description="O HydeDesk é um sistema de help desk que facilita o funcionário chamar um técnico, caso haja algum problema."
               Image={HydeDesk}
+              link="https://github.com/NeckBlick/FrontEndTCC_HydeDesk"
             />
             <CardProjetos
               title="Controle de Finanças"
